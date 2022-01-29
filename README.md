@@ -1,4 +1,4 @@
-# Plotting the Oura Ring Data
+# Exploring the Oura Ring Data
 
 ## Getting and understanding the data
 
