@@ -2,11 +2,9 @@
 
 ## Getting and understanding the data
 
-https://support.ouraring.com/hc/en-us/articles/360025441594-Export-and-Share-Your-Oura-Data
-https://cloud.ouraring.com/docs/sleep
-https://pandas.pydata.org/docs/index.html
-
-
+- [How to export Oura ring data](https://support.ouraring.com/hc/en-us/articles/360025441594-Export-and-Share-Your-Oura-Data)
+- [Oura ring API documentation](https://cloud.ouraring.com/docs/sleep)
+- [Pandas dataframe documentation](https://pandas.pydata.org/docs/index.html)
 
 ## Prerequisites: Howto setup Jupyter notebook for WSL2 (pyenv, pip)
 
@@ -22,6 +20,11 @@ python -m jupyterlab --no-browser (or jupyter-lab --no-browser)
 
 optional: pip install pandas mlplot
 
+If you're not using pyenv, can skip the first three steps.
 
+## What do we have here?
+
+oura.ipynb - example of loading the Oura data and plotting it
+oura-correlations.ipynb - three ways to visualize correlations within Oura ring data
 
 
